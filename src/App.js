@@ -61,6 +61,7 @@ const WeatherApp = () => {
             </h2>
             <p className="mt-1">Temperature: {weather.main.temp}°C</p>
             <p className="mt-1">Weather: {weather.weather[0].description}</p>
+            <p className="mt-1">Wind: {weather.wind.speed} m/s</p>
           </div>
         )}
       </div>
